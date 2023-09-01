@@ -63,7 +63,7 @@ const initialState = {
         { id: "Shirt", name: 'Shirt', quantity: 0, unitprice: 500 },
         { id: "Dress", name: 'Dress', quantity: 0, unitprice: 400 },
         { id: "Jeans", name: 'Jeans', quantity: 0, unitprice: 300 },
-        { id: "Hat", name: 'Hat', quantity: 0, unitprice: 50 },
+        { id: "Hats", name: 'Hats', quantity: 0, unitprice: 50 },
         { id: "Bags", name: 'Bags', quantity: 0, unitprice: 200 },
     ],
     Location: '$'
