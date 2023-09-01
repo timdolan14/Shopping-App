@@ -49,14 +49,14 @@ const ItemSelected = (props) => {
                         <option defaultValue value="Add" name="Add">Add</option>
                         <option value="Reduce" name="Reduce">Reduce</option>
                     </select>
-                    <span className="eco" style={{ marginLeft: '2rem', marginRight: '8px' }}></span>
+                    <span className="eco" style={{ marginRight: '8px' }}></span>
                     <input
                         required='required'
                         placeholder=" Amount" 
                         type='number'
                         id='cost'
                         value={quantity}
-                        style={{ marginLeft: '1rem', size: 10 }}
+                        style={{ marginLeft: '0.5rem', size: 10 }}
                         onChange={(event) => setQuantity(event.target.value)}>
                     </input>
                     <button className="btn btn-primary" onClick={submitEvent} style={{ marginLeft: '0.5rem', borderRadius: '5px' }}>
